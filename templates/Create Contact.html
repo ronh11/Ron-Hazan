@@ -4,14 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/CssFile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script defer src="../static/JsFile.js"></script>
     <title>Document</title>
 </head>
-<body background="../static/backgroundphoto.jpg">
-    <div style="margin: 5px;">
-        <h1 style=" padding: 2px ;">Welcome To Ron Hazan First Website</h1>
-        <form action="URL" method="post">
-            <label for="Full name">Full name</label><br>
-            <input type="text" id="Full name" name="Full name" autocomplete="on" required><br>
+<body  background="../static/backgroundphoto.jpg">
+<div class="container">
+       <h1>Contact</h1>
+       <div id="arrow">&#8595 </div>
+    <nav id="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo" id="logo1">Ron Hazan First Website</label>
+        
+        <ul>
+            <li><a href="hw1.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a  class="animation" href="Create Contact.html">Contact</a></li>
+            
+            <li><a href="Services.html">Feedback</a></li>
+        </ul>
+        </nav>
+        
+    <div class="buttons">
+        
+        <form id="item1" action="URL" method="post" >
+        <label for="Full name">Full name</label><br>
+        <input type="text" id="Full name" name="Full name" autocomplete="on" required><br>
         <label for="email">Email</label><br>
         <input type="email" id="email" name="email"><br>
         <label for="text">City</label><br>
@@ -29,16 +52,16 @@
                 <option value="Other" Other>Other</option>
 
             </select>
-        </div>
+     
+         </div>
         <br>
         <input type="submit"><br>
         <label for="agree">I agree</label>
         <input type="checkbox" id="agree" name="agree" required>
         </form>
-        <nav>
-            <ul>
-            <li><a href="hw1.html">Home Page</a> </li> 
-            
-        </ul></nav>
+    </div>
+          
+    
+</div>
 </body>
 </html>
